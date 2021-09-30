@@ -1,3 +1,3 @@
 FROM node:16
-RUN npm install --global @vue/cli
+RUN yarn global add @vue/cli
 WORKDIR /projects
